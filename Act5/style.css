@@ -1,0 +1,40 @@
+:root{
+    --clear: rgb(211, 211, 211);
+    --dark: #383434;
+    --clearBlue: #697DD6;
+    --creamRed: #D64D65;
+    --mintGreen: #69D67D;
+    --sandYellow: #D6BA64;
+}
+body{
+    background-color: var(--clear); 
+    color: var(--dark);
+}
+#square{
+    width: 200px;
+    height: 200px;
+    border: 8px solid var(--dark);
+}
+#bottomLeft,#bottomRight, #topLeft, #topRight{
+    width: 50%;
+    height: 50%;
+    border: 2px solid var(--dark);
+}
+#bottomLeft, #topLeft{
+    float: left;
+}
+#bottomRight, #topRight{
+    float: right;
+}
+#bottomRight{
+    background-color: var(--clearBlue);    
+}
+#bottomLeft{
+    background-color: var(--clearBlue);    
+}
+#topRight{
+    background-color: var(--clearBlue);    
+}
+#topLeft{
+    background-color: var(--clearBlue);    
+}

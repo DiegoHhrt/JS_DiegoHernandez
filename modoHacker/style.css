@@ -1,0 +1,33 @@
+#div{
+    width: 200px;
+    height: 200px;
+
+}
+h1{
+    text-align: center;
+}
+span{
+    width: 100%;
+    text-align: center;
+}
+body > div {
+    width: 65px;
+    height: 25px;
+}
+#sis{
+    background-color: rgb(120, 1, 167);
+    position: absolute;
+    left: 40%;
+}
+#sis:hover{
+    cursor: pointer;
+}
+#nel{
+    background-color: rgb(158, 7, 7);
+    position: absolute;
+    left: 60%;
+}
+#congrats{
+    display: none;
+    width: 100%;
+}
