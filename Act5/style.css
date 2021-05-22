@@ -11,13 +11,22 @@ body{
     color: var(--dark);
 }
 #square{
+    margin:auto;
     width: 200px;
     height: 200px;
     border: 8px solid var(--dark);
 }
-#bottomLeft,#bottomRight, #topLeft, #topRight{
-    width: 50%;
+#bottom{
     height: 50%;
+    width: 100%;
+}
+#top{
+    height: 50%;
+    width: 100%;
+}
+#bottomLeft,#bottomRight, #topLeft, #topRight{
+    width: 49%;
+    height: 99%;
     border: 2px solid var(--dark);
 }
 #bottomLeft, #topLeft{
@@ -27,14 +36,16 @@ body{
     float: right;
 }
 #bottomRight{
-    background-color: var(--clearBlue);    
+    background-color: var(--clearBlue);   
 }
 #bottomLeft{
-    background-color: var(--clearBlue);    
+    background-color: var(--creamRed); 
+    margin-top: -51%;   
 }
 #topRight{
-    background-color: var(--clearBlue);    
+    background-color: var(--sandYellow); 
+    margin-top: -51%;    
 }
 #topLeft{
-    background-color: var(--clearBlue);    
+    background-color: var(--mintGreen);    
 }
