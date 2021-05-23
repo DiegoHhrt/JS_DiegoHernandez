@@ -5,13 +5,20 @@
     --creamRed: #D64D65;
     --mintGreen: #69D67D;
     --sandYellow: #D6BA64;
+    --darkestGreen: #378144;
+    --darkestRed: #ad253e;
+    --darkestBlue: #3b51b4;
+    --darkestYellow: #a88826;
 }
 body{
+    text-align: center;
     background-color: var(--clear); 
     color: var(--dark);
 }
 #square{
     margin:auto;
+    margin-top: 100px;
+    margin-bottom: 100px;
     width: 200px;
     height: 200px;
     border: 8px solid var(--dark);
@@ -26,7 +33,7 @@ body{
 }
 #bottomLeft,#bottomRight, #topLeft, #topRight{
     width: 49%;
-    height: 99%;
+    height: 100%;
     border: 2px solid var(--dark);
 }
 #bottomLeft, #topLeft{
@@ -40,12 +47,28 @@ body{
 }
 #bottomLeft{
     background-color: var(--creamRed); 
-    margin-top: -51%;   
+    margin-top: -52%;   
 }
 #topRight{
     background-color: var(--sandYellow); 
-    margin-top: -51%;    
+    margin-top: -51.5%;    
 }
 #topLeft{
-    background-color: var(--mintGreen);    
+    background-color: var(--mintGreen);  
+    margin-top: -1%;  
+}
+.pointer{
+cursor: pointer;
+}
+#button{
+    background-color: rgb(99, 158, 226);
+    width: 15%;
+    height: 30px;
+    margin-top: 20px;
+    border-radius: 50px;
+    cursor: pointer;
+}
+#button:hover{
+    background-color: rgb(0, 9, 87);
+    color: rgb(211, 211, 211);
 }
