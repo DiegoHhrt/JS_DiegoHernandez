@@ -15,6 +15,7 @@ $(document).ready(function() {
             alert("No hay resultados que coincidan con"+response);
         });
     });
+    //Filtro
     $("select").on("change", () => {
         let filt = $(".filtmod").val();
         let petic=$.ajax({
