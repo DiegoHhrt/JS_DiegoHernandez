@@ -8,27 +8,30 @@
         <title>Document</title>
     </head>
     <body>
-        <h2>Forma figuras y colores</h2>
-        <div id="container">
-            <canvas id="Figures" width="600" height="600"></canvas>
-            <div>
-                Color principal: <input type="color" name="color" value="" id="solid">
-                <br><br>
-                Selecciona el tipo de degradado:
-                <select name="grad" id="gradient">
-                    <option value="S">Sólido</option>
-                    <option value="R">Radial</option>
-                    <option value="L">Lineal</option>
-                </select>
-                <br><br>
-                Selecciona la figura que deseas:
-                <select name="Fig" id="figSelect">
-                    <option value="star">Estrella</option>
-                    <option value="mickey">Mickey</option>
-                    <option value="falcon">Millenium Falcon</option>
-                </select>
-                <br><br>
-                <button id="but">Aplicar cambios</button>
+        <div id="full">
+            <h2>Forma figuras y colores</h2>
+            <div id="container">
+                <canvas id="Figures" width="600" height="600"></canvas>
+                <div id="pers">
+                    <label>Color principal: <input type="color" name="color" value="" id="solid"></label>
+                    <label id="degC"><br>Color de degradado: <input type="color" name="degradado" value="" id="deg" in></label>
+                    <br><br>
+                    Selecciona el tipo de degradado:
+                    <select name="grad" id="gradient">
+                        <option value="S">Sólido</option>
+                        <option value="R">Radial</option>
+                        <option value="L">Lineal</option>
+                    </select>
+                    <br><br>
+                    Selecciona la figura que deseas:
+                    <select name="Fig" id="figSelect">
+                        <option value="star">Estrella</option>
+                        <option value="mickey">Mickey</option>
+                        <option value="falcon">Millenium Falcon</option>
+                    </select>
+                    <br><br>
+                    <button id="but">Aplicar cambios</button>
+                </div>
             </div>
         </div>
         <script src="./selector.js"></script>
